@@ -1,0 +1,48 @@
+utils::bibentry(
+  header = "To cite {gsdata} in publications use:",
+  bibtype = "Misc",
+  title = paste0(
+    "{gsdata}:", " ",
+    "Data from Sustentarea's Global Syndemic project"
+  ),
+  author = c(
+    person(
+      given = "Daniel",
+      family = "Vartanian",
+      role = c("aut", "cre", "ccp"),
+      email = "danvartan@gmail.com",
+      comment = c(ORCID = "0000-0001-7782-759X")
+    ),
+    person(
+      given = "João Pedro",
+      family = "Junqueira Schettino",
+      role = c("aut"),
+      email = "schettino.joaopedro@gmail.com",
+      comment = c(ORCID = "0009-0009-5240-7666")
+    ),
+    person(
+      given = "Aline",
+      family = "Martins de Carvalho",
+      role = c("aut", "cph"),
+      email = "alinenutri@usp.br",
+      comment = c(ORCID = "0000-0002-4900-5609")
+    )
+  ),
+  year = "2025",
+  url = paste0(
+    "https://sustentarea.github.io/",
+    "gsdata"
+  ),
+  note = "R package",
+  textVersion = paste0(
+    "Vartanian, D.", " ",
+    "Schettino, J. P. J.", " ",
+    "Carvalho, A. M. de", ". ",
+    "(2025)", ". ",
+    "{gsdata}:", " ",
+    "Data from Sustentarea's Global Syndemic project", ". ",
+    "R package", ". ",
+    "https://sustentarea.github.io/",
+    "gsdata"
+  )
+)

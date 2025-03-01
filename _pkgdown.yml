@@ -1,0 +1,57 @@
+# You may have to install the development version of `pkgdown` or `bslib`
+# to use `_brands.yml`.
+
+url: https://sustentarea.github.io/gsdata/
+
+template:
+  bslib:
+    version: 5
+    brand: "./_brand.yml"
+  math-rendering: mathjax
+  light-switch: true
+
+  params:
+    noindex: true
+
+navbar:
+  structure:
+    left:
+    - home
+    - intro
+    - reference
+    - articles
+    - news
+    right:
+    - search
+    - lightswitch
+    - github
+  components:
+    home: ~
+    intro: ~
+    articles: ~
+
+reference:
+- title: Datasets
+  contents:
+  - gini
+
+- title: Utilities
+  contents:
+  - get_data
+  - get_raw_data
+
+authors:
+  Daniel Vartanian:
+    href: https://github.com/danielvartan
+  João Pedro Junqueira Schettino:
+    href: https://github.com/JPSchettino
+  Aline Martins de Carvalho:
+    href: https://github.com/alinenutri
+  Sustentarea Research and Extension Group:
+    href: https://www.fsp.usp.br/sustentarea/
+  Conselho Nacional de Desenvolvimento Científico e Tecnológico:
+    href: http://www.cnpq.br/
+
+development:
+  mode: auto
+  version_label: warning

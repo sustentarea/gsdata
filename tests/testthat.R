@@ -1,0 +1,47 @@
+library(checkmate)
+library(dplyr)
+library(gsdata)
+library(testthat)
+
+test_check("gsdata")
+
+# # For development use only (comment the code after use (Ctrl + /)).
+#
+# cffr::cff_write()
+# codemetar::write_codemeta()
+# covr::package_coverage()
+# devtools::check()
+# devtools::check_rhub()
+# devtools::check_rhub(platforms = c(
+#     "windows-x86_64-devel", "windows-x86_64-release",
+#     "windows-x86_64-oldrel", "macos-highsierra-release-cran",
+#     "ubuntu-gcc-devel", "ubuntu-gcc-release"
+# ))
+# devtools::check_win_devel()
+# devtools::check_win_release()
+# devtools::check_win_oldrelease()
+# devtools::check_mac_release()
+# devtools::document()
+# devtools::install()
+# devtools::load_all()
+# devtools::release()
+# devtools:test()
+# goodpractice::gp()
+# lintr::use_lintr(type = "tidyverse")
+# lintr::lint_package()
+# pkgdown::build_article()
+# pkgdown::build_favicons(overwrite = TRUE)
+# pkgdown::build_reference()
+# pkgdown::build_site()
+# revdepcheck::revdep_check(num_workers = 4)
+# rutils::update_pkg_versions()
+# spelling::spell_check_package()
+# spelling::update_wordlist()
+# urlchecker::url_check()
+# usethis::use_coverage()
+# usethis::use_dev_version()
+# usethis::use_github_action("check-standard")
+# usethis::use_logo(file.choose())
+# usethis::use_dev_version()
+# usethis::use_revdep()
+# usethis::use_tidy_description()

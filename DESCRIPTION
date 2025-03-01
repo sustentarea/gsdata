@@ -1,0 +1,62 @@
+Package: gsdata
+Title: Data from Sustentarea's Global Syndemic Project
+Version: 0.0.0.9000
+Authors@R: c(
+        person(
+            given = "Daniel",
+            family = "Vartanian",
+            role = c("aut", "cre", "ccp"),
+            email = "danpalcevartan@gmail.com",
+            comment = c(ORCID = "0000-0001-7782-759X")
+        ),
+        person(
+            given = "João Pedro",
+            family = "Junqueira Schettino",
+            role = c("aut"),
+            email = "schettino.joaopedro@gmail.com",
+            comment = c(ORCID = "0009-0009-5240-7666")
+        ),
+        person(
+            given = "Aline",
+            family = "Martins de Carvalho",
+            role = c("aut", "cph"),
+            email = "alinenutri@usp.br",
+            comment = c(ORCID = "0000-0002-4900-5609")
+        ),
+        person(
+            given = "Sustentarea Research and Extension Group",
+            role = c("fnd")
+        ),
+        person(
+            given = "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+            role = c("fnd")
+        )
+    )
+Description: A data package made to facilitate the documentation and sharing
+    of data from Sustentarea's Global Syndemic Project.
+License: MIT + file LICENSE
+URL: https://sustentarea.github.io/gsdata/,
+    https://github.com/sustentarea/gsdata/
+BugReports: https://github.com/sustentarea/gsdata/issues/
+Depends:
+    R (>= 4.3)
+Imports:
+    checkmate (>= 2.3.2),
+    cli (>= 3.6.3),
+    curl (>= 6.2.1),
+    dplyr (>= 1.1.4),
+    lifecycle (>= 1.0.4),
+    readr (>= 2.1.5)
+Suggests:
+    bslib (>= 0.8.0),
+    covr (>= 3.6.4),
+    knitr (>= 1.49),
+    rmarkdown (>= 2.29),
+    spelling (>= 2.3.1),
+    testthat (>= 3.2.2)
+Config/testthat/edition: 3
+Encoding: UTF-8
+Language: en-US
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+LazyData: true
