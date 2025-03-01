@@ -18,12 +18,14 @@ library(stringr)
 <!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check.yaml](https://github.com/sustentarea/sustentarea/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/sustentarea/sustentarea/actions/workflows/check-standard.yaml)
-[![Codecov test coverage](https://codecov.io/gh/sustentarea/sustentarea/branch/main/graph/badge.svg)](https://app.codecov.io/gh/sustentarea/sustentarea?branch=main)
+[![R-CMD-check.yaml](https://github.com/sustentarea/gsdata/actions/workflows/check-standard.yaml/badge.svg)](https://github.com/sustentarea/gsdata/actions/workflows/check-standard.yaml)
+[![Codecov test coverage](https://codecov.io/gh/sustentarea/gsdata/graph/badge.svg?token=3NboIwx7uo)](https://codecov.io/gh/sustentarea/gsdata)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
 ## Overview
+
+🌧️🌡️🌍👶📆🇧🇷🧮📉🌾🌱🍚🌽🚜🌳💧☀️🌦️📈
 
 `gsdata` is an R package designed to facilitate the documentation and sharing of data from Sustentarea's Global Syndemic Project. See the package [website](https://sustentarea.github.io/gsdata/) for more information.
 

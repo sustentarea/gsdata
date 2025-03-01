@@ -71,7 +71,7 @@
       "@type": "SoftwareApplication",
       "identifier": "bslib",
       "name": "bslib",
-      "version": ">= 0.8.0",
+      "version": ">= 0.9.0.9000",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -233,7 +233,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "50.101KB",
+  "fileSize": "50.342KB",
   "citation": [
     {
       "@type": "CreativeWork",
@@ -262,11 +262,13 @@
         }
       ],
       "name": "{gsdata}: Data from Sustentarea's Global Syndemic project",
-      "url": "https://sustentarea.github.io/gsdata/",
+      "url": "https://sustentarea.github.io/gsdata",
       "description": "R package"
     }
   ],
   "releaseNotes": "https://github.com/sustentarea/gsdata/blob/master/NEWS.md",
-  "contIntegration": ["https://github.com/sustentarea/sustentarea/actions/workflows/check-standard.yaml", "https://app.codecov.io/gh/sustentarea/sustentarea?branch=main"],
-  "developmentStatus": ["https://www.repostatus.org/#active", "https://lifecycle.r-lib.org/articles/stages.html#experimental"]
+  "readme": "https://github.com/sustentarea/gsdata/blob/main/README.md",
+  "contIntegration": ["https://github.com/sustentarea/gsdata/actions/workflows/check-standard.yaml", "https://codecov.io/gh/sustentarea/gsdata"],
+  "developmentStatus": ["https://www.repostatus.org/#active", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
+  "keywords": ["brazil", "climate-change", "data-analysis", "data-packages", "data-science", "food-systems", "global-syndemic", "ibge", "malnutrition", "nutrition", "obesity", "r", "rstats", "sisvan", "spei", "sustainable-eating", "wasting", "worldclim"]
 }

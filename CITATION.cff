@@ -46,7 +46,7 @@ preferred-citation:
     email: alinenutri@usp.br
     orcid: https://orcid.org/0000-0002-4900-5609
   year: '2025'
-  url: https://sustentarea.github.io/gsdata/
+  url: https://sustentarea.github.io/gsdata
   notes: R package
 repository-code: https://github.com/sustentarea/gsdata/issues/
 url: https://sustentarea.github.io/gsdata/
@@ -190,7 +190,7 @@ references:
     orcid: https://orcid.org/0000-0002-7111-0077
   year: '2025'
   doi: 10.32614/CRAN.package.bslib
-  version: '>= 0.8.0'
+  version: '>= 0.9.0.9000'
 - type: software
   title: covr
   abstract: 'covr: Test Coverage for Packages'
