@@ -8,7 +8,7 @@
   "codeRepository": "https://github.com/sustentarea/gsdata/",
   "issueTracker": "https://github.com/sustentarea/gsdata/issues/",
   "license": "https://spdx.org/licenses/MIT",
-  "version": "0.0.0.9000",
+  "version": "0.0.0",
   "programmingLanguage": {
     "@type": "ComputerLanguage",
     "name": "R",
@@ -71,7 +71,7 @@
       "@type": "SoftwareApplication",
       "identifier": "bslib",
       "name": "bslib",
-      "version": ">= 0.9.0.9000",
+      "version": ">= 0.9.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -233,7 +233,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "50.342KB",
+  "fileSize": "50.332KB",
   "citation": [
     {
       "@type": "CreativeWork",

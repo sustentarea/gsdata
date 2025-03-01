@@ -15,6 +15,17 @@ groomr::remove_blank_line_dups(here::here("README.md"))
 
 rutils::update_pkg_versions()
 
+file <- here::here("DESCRIPTION")
+
+file |>
+  readr::read_lines() |>
+  stringr::str_replace_all(
+    pattern = "\\.90[0-9]{2}",
+    replacement = ""
+  ) |>
+
+readr::write_lines(file)
+
 # Update package year -----
 
 files <- c(
