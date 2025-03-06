@@ -18,12 +18,13 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Daniel Vartanian \email{danpalcevartan@gmail.com} (\href{https://orcid.org/0000-0001-7782-759X}{ORCID}) [conceptor]
+\strong{Maintainer}: Daniel Vartanian \email{danvartan@gmail.com} (\href{https://orcid.org/0000-0001-7782-759X}{ORCID}) [conceptor, copyright holder]
 
 Authors:
 \itemize{
   \item João Pedro Junqueira Schettino \email{schettino.joaopedro@gmail.com} (\href{https://orcid.org/0009-0009-5240-7666}{ORCID})
-  \item Aline Martins de Carvalho \email{alinenutri@usp.br} (\href{https://orcid.org/0000-0002-4900-5609}{ORCID}) [copyright holder]
+  \item Arthur Ramalho Magalhães \email{arthurama.magalhaes@gmail.com} (\href{https://orcid.org/0000-0003-3838-2844}{ORCID})
+  \item Aline Martins de Carvalho \email{alinenutri@usp.br} (\href{https://orcid.org/0000-0002-4900-5609}{ORCID})
 }
 
 Other contributors:

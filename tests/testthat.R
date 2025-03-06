@@ -1,5 +1,4 @@
 library(checkmate)
-library(dplyr)
 library(gsdata)
 library(testthat)
 
@@ -11,23 +10,12 @@ test_check("gsdata")
 # codemetar::write_codemeta()
 # covr::package_coverage()
 # devtools::check()
-# devtools::check_rhub()
-# devtools::check_rhub(platforms = c(
-#     "windows-x86_64-devel", "windows-x86_64-release",
-#     "windows-x86_64-oldrel", "macos-highsierra-release-cran",
-#     "ubuntu-gcc-devel", "ubuntu-gcc-release"
-# ))
-# devtools::check_win_devel()
-# devtools::check_win_release()
-# devtools::check_win_oldrelease()
-# devtools::check_mac_release()
 # devtools::document()
 # devtools::install()
 # devtools::load_all()
 # devtools::release()
 # devtools:test()
 # goodpractice::gp()
-# lintr::use_lintr(type = "tidyverse")
 # lintr::lint_package()
 # pkgdown::build_article()
 # pkgdown::build_favicons(overwrite = TRUE)

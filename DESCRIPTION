@@ -1,12 +1,12 @@
 Package: gsdata
 Title: Data from Sustentarea's Global Syndemic Project
-Version: 0.0.0
+Version: 0.1.0
 Authors@R: c(
         person(
             given = "Daniel",
             family = "Vartanian",
-            role = c("aut", "cre", "ccp"),
-            email = "danpalcevartan@gmail.com",
+            role = c("aut", "cre", "ccp", "cph"),
+            email = "danvartan@gmail.com",
             comment = c(ORCID = "0000-0001-7782-759X")
         ),
         person(
@@ -17,9 +17,16 @@ Authors@R: c(
             comment = c(ORCID = "0009-0009-5240-7666")
         ),
         person(
+            given = "Arthur",
+            family = "Ramalho Magalhães",
+            role = c("aut"),
+            email = "arthurama.magalhaes@gmail.com",
+            comment = c(ORCID = "0000-0003-3838-2844")
+        ),
+        person(
             given = "Aline",
             family = "Martins de Carvalho",
-            role = c("aut", "cph"),
+            role = c("aut"),
             email = "alinenutri@usp.br",
             comment = c(ORCID = "0000-0002-4900-5609")
         ),
@@ -43,10 +50,12 @@ Depends:
 Imports:
     checkmate (>= 2.3.2),
     cli (>= 3.6.3),
-    curl (>= 6.2.1),
     dplyr (>= 1.1.4),
+    glue (>= 1.8.0),
     lifecycle (>= 1.0.4),
-    readr (>= 2.1.5)
+    magrittr (>= 2.0.3),
+    readr (>= 2.1.5),
+    osfr (>= 0.2.9)
 Suggests:
     bslib (>= 0.9.0),
     covr (>= 3.6.4),

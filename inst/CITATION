@@ -9,7 +9,7 @@ utils::bibentry(
     person(
       given = "Daniel",
       family = "Vartanian",
-      role = c("aut", "cre", "ccp"),
+      role = c("aut", "cre", "ccp", "cph"),
       email = "danvartan@gmail.com",
       comment = c(ORCID = "0000-0001-7782-759X")
     ),
@@ -21,9 +21,16 @@ utils::bibentry(
       comment = c(ORCID = "0009-0009-5240-7666")
     ),
     person(
+      given = "Arthur",
+      family = "Ramalho Magalhães",
+      role = c("aut"),
+      email = "arthurama.magalhaes@gmail.com",
+      comment = c(ORCID = "0000-0003-3838-2844")
+    ),
+    person(
       given = "Aline",
       family = "Martins de Carvalho",
-      role = c("aut", "cph"),
+      role = c("aut"),
       email = "alinenutri@usp.br",
       comment = c(ORCID = "0000-0002-4900-5609")
     )
@@ -37,6 +44,7 @@ utils::bibentry(
   textVersion = paste0(
     "Vartanian, D.", " ",
     "Schettino, J. P. J.", " ",
+    "Magalhães, A. R.", "& ",
     "Carvalho, A. M. de", ". ",
     "(2025)", ". ",
     "{gsdata}:", " ",

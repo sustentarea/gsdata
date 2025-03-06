@@ -4,14 +4,18 @@
 \alias{get_raw_data}
 \title{Get the raw files of datasets from the Sustentarea's Global Syndemic Project}
 \usage{
-get_raw_data(data, dir)
+get_raw_data(data, dir = tempdir(), force = FALSE)
 }
 \arguments{
 \item{data}{A \code{\link[base:character]{character}} string with the name of the
 dataset to be retrieved.}
 
-\item{dir}{A \code{\link[base:character]{character}} string with the directory
-where the raw data file will be saved.}
+\item{dir}{(Optional) A \code{\link[base:character]{character}} string with the
+directory where the raw data file should be saved (Default: \code{tempdir()}).}
+
+\item{force}{(Optional) A \code{\link[base:logical]{logical}} flag indicating if
+the raw data file should be downloaded even if it already exists. If
+\code{TRUE}, the file will be downloaded again (Default: \code{FALSE}).}
 }
 \value{
 A \code{\link[base:character]{character}} string with the file path of
@@ -28,7 +32,7 @@ or use \code{data(package = "gsdata")} to see all datasets available.
 }
 \examples{
 if (interactive()) {
-  get_raw_data("gini", tempdir())
+  get_raw_data("gini_index")
 }
 }
 \seealso{

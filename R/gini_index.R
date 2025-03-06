@@ -13,7 +13,7 @@
 #' The [Gini index](https://en.wikipedia.org/wiki/Gini_coefficient) is a
 #' measure of income inequality, ranging from 0 (perfect equality)
 #' to 1 (perfect inequality). This dataset provides Gini indices for Brazilian
-#' municipalities across three census years.
+#' municipalities across three census years (1991, 2000, and 2010).
 #'
 #' The Brazilian Institute of Geography and Statistics
 #' ([IBGE](https://www.ibge.gov.br/)) Automatic Retrieval System
@@ -66,14 +66,14 @@
 #'   \item{municipality}{
 #'     The name of the Brazilian municipality.
 #'     \cr \cr
-#'     R class: [`character`][base::character].
+#'     R class: [`character`][base::character]
 #'   }
 #'
 #'   \item{gini_index}{
 #'     The Gini index value for the municipality, ranging from 0 (perfect
 #'     equality) to 1 (perfect inequality).
 #'     \cr \cr
-#'     R class: [`double`][base::double].
+#'     R class: [`double`][base::double]
 #'   }
 #' }
 #'
@@ -85,8 +85,8 @@
 #'
 #' Instituto Brasileiro de Geografia e Estatística, Instituto de Pesquisas
 #' Econômicas e Aplicadas, & Ministério da Saúde. (n.d.). _Índice de Gini da
-#' renda domiciliar per capita segundo município—Período: 1991, 2000 e 2010_
-#' \[Gini index of per capita household income by municipality – period: 1991,
-#' 2000, and 2010\] \[Dataset\]. DATASUS - Tabnet. Retrieved November 16, 2023,
+#' renda domiciliar per capita segundo município --- Período: 1991, 2000 e 2010_
+#' \[Gini index of per capita household income by municipality---period: 1991,
+#' 2000, and 2010\] \[Dataset\]. DATASUS - Tabnet. Retrieved November 16, 2024,
 #' from \url{http://tabnet.datasus.gov.br/cgi/ibge/censo/cnv/ginibr.def}
-"gini"
+"gini_index"

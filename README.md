@@ -1,4 +1,6 @@
-# gsdata <a href = "https://sustentarea.github.io/gsdata/"><img src = "man/figures/hex-logo.png" align="right" width="120" /></a>
+# gsdata <a href = "https://sustentarea.github.io/gsdata/"><img src = "man/figures/logo.svg" align="right" width="135" /></a>
+
+<!-- quarto render -->
 
 <!-- badges: start -->
 [![Project Status: Active – The project has reached a stable, usable
@@ -15,12 +17,11 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 
 ## Overview
 
-🌧️🌡️🌍👶📆🇧🇷🧮📉🌾🌱🍚🌽🚜🌳💧☀️🌦️📈
+🧒🏽🍎🥦🌽🥕🌱🌾🍚🍽️🏥🌍☀️🌡️💧🌳🚜🌧️🌦️📆🇧🇷
 
 `gsdata` is an R package designed to facilitate the documentation and
-sharing of data from Sustentarea’s Global Syndemic Project. See the
-package [website](https://sustentarea.github.io/gsdata/) for more
-information.
+sharing of data from [Sustentarea’s Global Syndemic
+Project](https://osf.io/8w36c/).
 
 ## Installation
 
@@ -31,37 +32,37 @@ You can install `gsdata` using the
 remotes::install_github("sustentarea/gsdata")
 ```
 
-## How to Use
+## Usage
 
 The package provides a preview and documentation for each dataset. You
 can find a list of available datasets
 [here](https://sustentarea.github.io/gsdata/reference/index.html).
 
 To download them, use the function `get_data()`. For example, to get the
-`gini` dataset use:
+`gini_index` dataset use:
 
 ``` r
-get_data("gini")
+get_data("gini_index")
 ```
 
 The raw data files can be downloaded using the `get_raw_data()`
 function.
 
 ``` r
-get_raw_data("gini", file = "gini.csv")
+get_raw_data("gini_index")
 ```
 
 ## Data Convertion
 
-If you need to convert the data to a different format, you can use the
-following packages:
+If you need to convert the data to a different format, we recommend
+using the following packages:
 
-- [`readr`](https://readr.tidyverse.org/) for writing data to `csv`
-  files.
-- [`readxl`](https://readxl.tidyverse.org/) for writing data to `xlsx`
-  (Excel) files.
-- [`haven`](https://haven.tidyverse.org/) for writing data to `dta`
-  (Stata), `sav` (SPSS), and `sas` (SAS) files.
+- [`readr`](https://readr.tidyverse.org/): For writing data to `csv`
+  files
+- [`readxl`](https://readxl.tidyverse.org/): For writing data to `xlsx`
+  (Excel) files
+- [`haven`](https://haven.tidyverse.org/): For writing data to `dta`
+  (Stata), `sav` (SPSS), and `sas` (SAS) files
 
 ## License
 

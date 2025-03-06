@@ -17,12 +17,16 @@ abstract: A data package made to facilitate the documentation and sharing of dat
 authors:
 - family-names: Vartanian
   given-names: Daniel
-  email: danpalcevartan@gmail.com
+  email: danvartan@gmail.com
   orcid: https://orcid.org/0000-0001-7782-759X
 - family-names: Junqueira Schettino
   given-names: João Pedro
   email: schettino.joaopedro@gmail.com
   orcid: https://orcid.org/0009-0009-5240-7666
+- family-names: Ramalho Magalhães
+  given-names: Arthur
+  email: arthurama.magalhaes@gmail.com
+  orcid: https://orcid.org/0000-0003-3838-2844
 - family-names: Carvalho
   given-names: Aline
   name-particle: Martins de
@@ -40,6 +44,10 @@ preferred-citation:
     given-names: João Pedro
     email: schettino.joaopedro@gmail.com
     orcid: https://orcid.org/0009-0009-5240-7666
+  - family-names: Ramalho Magalhães
+    given-names: Arthur
+    email: arthurama.magalhaes@gmail.com
+    orcid: https://orcid.org/0000-0003-3838-2844
   - family-names: Carvalho
     given-names: Aline
     name-particle: Martins de
@@ -53,7 +61,7 @@ url: https://sustentarea.github.io/gsdata/
 contact:
 - family-names: Vartanian
   given-names: Daniel
-  email: danpalcevartan@gmail.com
+  email: danvartan@gmail.com
   orcid: https://orcid.org/0000-0001-7782-759X
 references:
 - type: software
@@ -95,20 +103,6 @@ references:
   doi: 10.32614/CRAN.package.cli
   version: '>= 3.6.3'
 - type: software
-  title: curl
-  abstract: 'curl: A Modern and Flexible Web Client for R'
-  notes: Imports
-  url: https://jeroen.r-universe.dev/curl
-  repository: https://CRAN.R-project.org/package=curl
-  authors:
-  - family-names: Ooms
-    given-names: Jeroen
-    email: jeroenooms@gmail.com
-    orcid: https://orcid.org/0000-0002-4035-0289
-  year: '2025'
-  doi: 10.32614/CRAN.package.curl
-  version: '>= 6.2.1'
-- type: software
   title: dplyr
   abstract: 'dplyr: A Grammar of Data Manipulation'
   notes: Imports
@@ -135,6 +129,23 @@ references:
   doi: 10.32614/CRAN.package.dplyr
   version: '>= 1.1.4'
 - type: software
+  title: glue
+  abstract: 'glue: Interpreted String Literals'
+  notes: Imports
+  url: https://glue.tidyverse.org/
+  repository: https://CRAN.R-project.org/package=glue
+  authors:
+  - family-names: Hester
+    given-names: Jim
+    orcid: https://orcid.org/0000-0002-2739-7082
+  - family-names: Bryan
+    given-names: Jennifer
+    email: jenny@posit.co
+    orcid: https://orcid.org/0000-0002-6983-2759
+  year: '2025'
+  doi: 10.32614/CRAN.package.glue
+  version: '>= 1.8.0'
+- type: software
   title: lifecycle
   abstract: 'lifecycle: Manage the Life Cycle of your Package Functions'
   notes: Imports
@@ -151,6 +162,22 @@ references:
   year: '2025'
   doi: 10.32614/CRAN.package.lifecycle
   version: '>= 1.0.4'
+- type: software
+  title: magrittr
+  abstract: 'magrittr: A Forward-Pipe Operator for R'
+  notes: Imports
+  url: https://magrittr.tidyverse.org
+  repository: https://CRAN.R-project.org/package=magrittr
+  authors:
+  - family-names: Bache
+    given-names: Stefan Milton
+    email: stefan@stefanbache.dk
+  - family-names: Wickham
+    given-names: Hadley
+    email: hadley@rstudio.com
+  year: '2025'
+  doi: 10.32614/CRAN.package.magrittr
+  version: '>= 2.0.3'
 - type: software
   title: readr
   abstract: 'readr: Read Rectangular Text Data'
@@ -170,6 +197,24 @@ references:
   year: '2025'
   doi: 10.32614/CRAN.package.readr
   version: '>= 2.1.5'
+- type: software
+  title: osfr
+  abstract: 'osfr: Interface to the ''Open Science Framework'' (''OSF'')'
+  notes: Imports
+  url: https://docs.ropensci.org/osfr/
+  repository: https://CRAN.R-project.org/package=osfr
+  authors:
+  - family-names: Wolen
+    given-names: Aaron
+    email: aaron@wolen.com
+    orcid: https://orcid.org/0000-0003-2542-2202
+  - family-names: Hartgerink
+    given-names: Chris
+    email: chjh@protonmail.com
+    orcid: https://orcid.org/0000-0003-1050-6809
+  year: '2025'
+  doi: 10.32614/CRAN.package.osfr
+  version: '>= 0.2.9'
 - type: software
   title: bslib
   abstract: 'bslib: Custom ''Bootstrap'' ''Sass'' Themes for ''shiny'' and ''rmarkdown'''

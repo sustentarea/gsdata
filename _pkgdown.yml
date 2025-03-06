@@ -6,12 +6,15 @@ url: https://sustentarea.github.io/gsdata/
 template:
   bslib:
     version: 5
-    brand: "./_brand.yml"
+    brand: "_brand.yml"
   math-rendering: mathjax
   light-switch: true
-
+  opengraph:
+    image:
+      src: man/figures/og-image.png
+      alt: "Sustentarea's logo"
   params:
-    noindex: true
+    noindex: false
 
 navbar:
   structure:
@@ -33,7 +36,7 @@ navbar:
 reference:
 - title: Datasets
   contents:
-  - gini
+  - gini_index
 
 - title: Utilities
   contents:
@@ -42,11 +45,13 @@ reference:
 
 authors:
   Daniel Vartanian:
-    href: https://github.com/danielvartan
+    href: https://github.com/danielvartan/
   João Pedro Junqueira Schettino:
-    href: https://github.com/JPSchettino
+    href: https://github.com/JPSchettino/
+  Arthur Ramalho Magalhães:
+    href: https://github.com/arthurama/
   Aline Martins de Carvalho:
-    href: https://github.com/alinenutri
+    href: https://github.com/alinenutri/
   Sustentarea Research and Extension Group:
     href: https://www.fsp.usp.br/sustentarea/
   Conselho Nacional de Desenvolvimento Científico e Tecnológico:
