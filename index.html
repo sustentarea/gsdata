@@ -6,6 +6,12 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <title>Data from Sustentarea's Global Syndemic Project • gsdata</title>
+<!-- favicons --><link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+<link rel="apple-touch-icon" type="image/png" sizes="180x180" href="apple-touch-icon.png">
+<link rel="apple-touch-icon" type="image/png" sizes="120x120" href="apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" type="image/png" sizes="76x76" href="apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" type="image/png" sizes="60x60" href="apple-touch-icon-60x60.png">
 <script src="lightswitch.js"></script><script src="deps/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="deps/bootstrap-5.3.1/bootstrap.min.css" rel="stylesheet">
 <script src="deps/bootstrap-5.3.1/bootstrap.bundle.min.js"></script><link href="deps/Poppins-0.4.9/font.css" rel="stylesheet">
@@ -13,11 +19,11 @@
 <link href="deps/DM_Mono-0.4.9/font.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/all.min.css" rel="stylesheet">
 <link href="deps/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet">
-<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><script src="deps/MathJax-3.2.2/tex-chtml.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><link href="extra.css" rel="stylesheet">
-<meta property="og:title" content="Data from Sustentarea's Global Syndemic Project">
+<script src="deps/headroom-0.11.0/headroom.min.js"></script><script src="deps/headroom-0.11.0/jQuery.headroom.min.js"></script><script src="deps/bootstrap-toc-1.0.1/bootstrap-toc.min.js"></script><script src="deps/clipboard.js-2.0.11/clipboard.min.js"></script><script src="deps/search-1.0.0/autocomplete.jquery.min.js"></script><script src="deps/search-1.0.0/fuse.min.js"></script><script src="deps/search-1.0.0/mark.min.js"></script><script src="deps/MathJax-3.2.2/tex-chtml.min.js"></script><!-- pkgdown --><script src="pkgdown.js"></script><meta property="og:title" content="Data from Sustentarea's Global Syndemic Project">
 <meta name="description" content="A data package made to facilitate the documentation and sharing of data from Sustentarea's Global Syndemic Project.">
 <meta property="og:description" content="A data package made to facilitate the documentation and sharing of data from Sustentarea's Global Syndemic Project.">
-<meta name="robots" content="noindex">
+<meta property="og:image" content="https://sustentarea.github.io/gsdata/reference/figures/og-image.png">
+<meta property="og:image:alt" content="Sustentarea's logo">
 </head>
 <body>
     <a href="#main" class="visually-hidden-focusable">Skip to contents</a>
@@ -27,7 +33,7 @@
 
     <a class="navbar-brand me-2" href="index.html">gsdata</a>
 
-    <small class="nav-text text-warning me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.0.0</small>
+    <small class="nav-text text-warning me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Released version">0.1.0</small>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -60,16 +66,19 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="gsdata-">gsdata <a href="https://sustentarea.github.io/gsdata/"><img src="reference/figures/hex-logo.png" align="right" width="120"></a>
+<div class="page-header">
+<img src="logo.svg" class="logo" alt=""><h1 id="gsdata-">gsdata 
 <a class="anchor" aria-label="anchor" href="#gsdata-"></a>
-</h1></div>
+</h1>
+</div>
+<!-- quarto render -->
 <!-- badges: start -->
 
 <div class="section level2">
 <h2 id="overview">Overview<a class="anchor" aria-label="anchor" href="#overview"></a>
 </h2>
-<p>🌧️🌡️🌍👶📆🇧🇷🧮📉🌾🌱🍚🌽🚜🌳💧☀️🌦️📈</p>
-<p><code>gsdata</code> is an R package designed to facilitate the documentation and sharing of data from Sustentarea’s Global Syndemic Project. See the package <a href="https://sustentarea.github.io/gsdata/">website</a> for more information.</p>
+<p>🧒🏽🍎🥦🌽🥕🌱🌾🍚🍽️🏥🌍☀️🌡️💧🌳🚜🌧️🌦️📆🇧🇷</p>
+<p><code>gsdata</code> is an R package designed to facilitate the documentation and sharing of data from <a href="https://osf.io/8w36c/" class="external-link">Sustentarea’s Global Syndemic Project</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -79,27 +88,27 @@
 <code class="sourceCode R"><span><span class="fu">remotes</span><span class="fu">::</span><span class="fu">install_github</span><span class="op">(</span><span class="st">"sustentarea/gsdata"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
-<h2 id="how-to-use">How to Use<a class="anchor" aria-label="anchor" href="#how-to-use"></a>
+<h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
 </h2>
 <p>The package provides a preview and documentation for each dataset. You can find a list of available datasets <a href="https://sustentarea.github.io/gsdata/reference/index.html">here</a>.</p>
-<p>To download them, use the function <code><a href="reference/get_data.html">get_data()</a></code>. For example, to get the <code>gini</code> dataset use:</p>
+<p>To download them, use the function <code><a href="reference/get_data.html">get_data()</a></code>. For example, to get the <code>gini_index</code> dataset use:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="reference/get_data.html">get_data</a></span><span class="op">(</span><span class="st">"gini"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="reference/get_data.html">get_data</a></span><span class="op">(</span><span class="st">"gini_index"</span><span class="op">)</span></span></code></pre></div>
 <p>The raw data files can be downloaded using the <code><a href="reference/get_raw_data.html">get_raw_data()</a></code> function.</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="fu"><a href="reference/get_raw_data.html">get_raw_data</a></span><span class="op">(</span><span class="st">"gini"</span>, file <span class="op">=</span> <span class="st">"gini.csv"</span><span class="op">)</span></span></code></pre></div>
+<code class="sourceCode R"><span><span class="fu"><a href="reference/get_raw_data.html">get_raw_data</a></span><span class="op">(</span><span class="st">"gini_index"</span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
 <h2 id="data-convertion">Data Convertion<a class="anchor" aria-label="anchor" href="#data-convertion"></a>
 </h2>
-<p>If you need to convert the data to a different format, you can use the following packages:</p>
+<p>If you need to convert the data to a different format, we recommend using the following packages:</p>
 <ul>
 <li>
-<a href="https://readr.tidyverse.org/" class="external-link"><code>readr</code></a> for writing data to <code>csv</code> files.</li>
+<a href="https://readr.tidyverse.org/" class="external-link"><code>readr</code></a>: For writing data to <code>csv</code> files</li>
 <li>
-<a href="https://readxl.tidyverse.org/" class="external-link"><code>readxl</code></a> for writing data to <code>xlsx</code> (Excel) files.</li>
+<a href="https://readxl.tidyverse.org/" class="external-link"><code>readxl</code></a>: For writing data to <code>xlsx</code> (Excel) files</li>
 <li>
-<a href="https://haven.tidyverse.org/" class="external-link"><code>haven</code></a> for writing data to <code>dta</code> (Stata), <code>sav</code> (SPSS), and <code>sas</code> (SAS) files.</li>
+<a href="https://haven.tidyverse.org/" class="external-link"><code>haven</code></a>: For writing data to <code>dta</code> (Stata), <code>sav</code> (SPSS), and <code>sas</code> (SAS) files</li>
 </ul>
 </div>
 <div class="section level2">
@@ -137,11 +146,13 @@
 <h2 data-toc-skip>Developers</h2>
 <ul class="list-unstyled">
 <li>
-<a href="https://github.com/danielvartan" class="external-link">Daniel Vartanian</a> <br><small class="roles"> Author, maintainer, conceptor </small> <a href="https://orcid.org/0000-0001-7782-759X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<a href="https://github.com/danielvartan/" class="external-link">Daniel Vartanian</a> <br><small class="roles"> Author, maintainer, conceptor, copyright holder </small> <a href="https://orcid.org/0000-0001-7782-759X" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>
-<a href="https://github.com/JPSchettino" class="external-link">João Pedro Junqueira Schettino</a> <br><small class="roles"> Author </small> <a href="https://orcid.org/0009-0009-5240-7666" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<a href="https://github.com/JPSchettino/" class="external-link">João Pedro Junqueira Schettino</a> <br><small class="roles"> Author </small> <a href="https://orcid.org/0009-0009-5240-7666" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>
-<a href="https://github.com/alinenutri" class="external-link">Aline Martins de Carvalho</a> <br><small class="roles"> Author, copyright holder </small> <a href="https://orcid.org/0000-0002-4900-5609" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<a href="https://github.com/arthurama/" class="external-link">Arthur Ramalho Magalhães</a> <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0003-3838-2844" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
+<li>
+<a href="https://github.com/alinenutri/" class="external-link">Aline Martins de Carvalho</a> <br><small class="roles"> Author </small> <a href="https://orcid.org/0000-0002-4900-5609" target="orcid.widget" aria-label="ORCID" class="external-link"><span class="fab fa-orcid orcid" aria-hidden="true"></span></a> </li>
 <li>
 <a href="https://www.fsp.usp.br/sustentarea/" class="external-link">Sustentarea Research and Extension Group</a> <br><small class="roles"> Funder </small>  </li>
 <li>
@@ -156,7 +167,7 @@
 
 
     <footer><div class="pkgdown-footer-left">
-  <p>Developed by <a href="https://github.com/danielvartan" class="external-link">Daniel Vartanian</a>, <a href="https://github.com/JPSchettino" class="external-link">João Pedro Junqueira Schettino</a>, <a href="https://github.com/alinenutri" class="external-link">Aline Martins de Carvalho</a>, <a href="https://www.fsp.usp.br/sustentarea/" class="external-link">Sustentarea Research and Extension Group</a>, <a href="http://www.cnpq.br/" class="external-link">Conselho Nacional de Desenvolvimento Científico e Tecnológico</a>.</p>
+  <p>Developed by <a href="https://github.com/danielvartan/" class="external-link">Daniel Vartanian</a>, <a href="https://github.com/JPSchettino/" class="external-link">João Pedro Junqueira Schettino</a>, <a href="https://github.com/arthurama/" class="external-link">Arthur Ramalho Magalhães</a>, <a href="https://github.com/alinenutri/" class="external-link">Aline Martins de Carvalho</a>, <a href="https://www.fsp.usp.br/sustentarea/" class="external-link">Sustentarea Research and Extension Group</a>, <a href="http://www.cnpq.br/" class="external-link">Conselho Nacional de Desenvolvimento Científico e Tecnológico</a>.</p>
 </div>
 
 <div class="pkgdown-footer-right">
